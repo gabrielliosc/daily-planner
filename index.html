@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To do list</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/bb15cd262c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="images/plant1.png" alt="Daily Planner" />
+      <div class="title">
+        <h1>DAILY PLANNER</h1>
+        <input type="date" name="datePlanner" id="datePlanner" />
+      </div>
+      <img src="images/plant2.png" alt="Daily Planner" />
+    </header>
+
+    <div class="columns">
+      <div class="left">
+        <div class="priority">
+          <h2>PRIORIDADES</h2>
+          <ul>
+            <li class="background-1">
+              <input type="checkbox" name="firstP" id="firstP" />
+              <input type="text" />
+            </li>
+            <li class="background-2">
+              <input type="checkbox" name="secondP" id="secondP" />
+              <input type="text" />
+            </li>
+            <li class="background-3">
+              <input type="checkbox" name="thirdP" id="thirdP" />
+              <input type="text" />
+            </li>
+            <li class="background-4">
+              <input type="checkbox" name="fourthP" id="fourthP" />
+              <input type="text" />
+            </li>
+          </ul>
+        </div>
+        <form>
+          <h2>TO DO</h2>
+          <div class="new-task">
+            <input type="text" placeholder="Add new task" />
+            <button type="submit">
+              <i class="fa-solid fa-circle-plus"></i>
+            </button>
+          </div>
+        </form>
+        <div class="task-box">
+        </div>
+      </div>
+      <div class="right">
+        <div class="commitment">
+          <div>
+            <h2>COMPROMISSOS</h2>
+            <ul>
+              <li>
+                <input type="time" name="fisrtTime" id="fisrtTime" />
+                <input type="text" />
+              </li>
+              <li>
+                <input type="time" name="secondTime" id="secondTime" />
+                <input type="text" />
+              </li>
+              <li>
+                <input type="time" name="thirdTime" id="thirdTime" />
+                <input type="text" />
+              </li>
+              <li>
+                <input type="time" name="fourthTime" id="fourthTime" />
+                <input type="text" />
+              </li>
+            </ul>
+          </div>
+          <img src="images/plant3.png" alt="plant" />
+        </div>
+        <div class="bullet">
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+        </div>
+        <div class="list">
+          <h2>REASONS TO SMILE</h2>
+          <ul>
+            <li>
+              <input type="text">
+            </li>
+            <li>
+              <input type="text">
+            </li>
+            <li>
+              <input type="text">
+            </li>
+            <li>
+              <input type="text">
+            </li>
+          </ul>
+        </div>
+        <div class="bullet">
+          <h2>TOMORROW</h2>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+          <p>................</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

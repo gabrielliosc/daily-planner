@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Caveat Brush", cursive;
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  border: 1px solid #bc5950;
+  border-radius: 10px;
+  background-color: #e4e4de;
+  color: #bc5950;
+  margin: 10vh 0vh;
+  padding: 20px;
+  height: 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.container header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container header input[type="date"] {
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+.container header input[type="date"]:focus {
+  outline: none;
+}
+.container header ::-webkit-calendar-picker-indicator,
+.commitment ::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.container header ::-webkit-datetime-edit-text {
+  background-image: url("images/planta.jpg");
+  background-repeat: no-repeat;
+  background-size: 10px;
+}
+.container header ::-webkit-datetime-edit-day-field {
+  background-color: transparent;
+}
+.container header img {
+  height: 100px;
+  width: 150px;
+  padding-bottom: 10px;
+}
+.title {
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.columns div {
+  padding: 5px;
+}
+.columns .left {
+  width: 50%;
+}
+.columns .right {
+  width: 50%;
+}
+.right .bullet img {
+  height: 100px;
+  width: 50px;
+  position: absolute;
+  top: 570px;
+  z-index: 1;
+}
+.priority ul li {
+  border: 2px solid #e4e4de;
+  border-radius: 20px;
+  padding: 5px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.priority input[type="text"] {
+  background-color: transparent;
+  margin: 0px 10px;
+  max-width: 160px;
+  border: none;
+  outline: none;
+}
+.priority .background-1 {
+  background-color: #f4dbd0;
+}
+.priority .background-2 {
+  background-color: #f8e5dc;
+}
+.priority .background-3 {
+  background-color: #faf0ea;
+}
+.priority .background-4 {
+  background-color: #fff9f4;
+}
+.list li {
+  list-style-type: none;
+  border-bottom: 1px dashed gray;
+  padding: 2px 0px;
+  width: 210px;
+}
+.list input[type="text"] {
+  background-color: transparent;
+  color: #000;
+  border: none;
+  margin: 0px 5px;
+  width: 210px;
+}
+.list input[type="text"]:focus {
+  outline: none;
+}
+.commitment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+}
+.commitment div {
+    padding: 0px;
+}
+.commitment li {
+  list-style-type: none;
+  padding: 2px 0px;
+}
+.commitment li input {
+  border: none;
+  border-bottom: 1px dashed gray;
+}
+.commitment input[type="text"] {
+  background-color: transparent;
+  color: #000;
+  margin: 0px 5px;
+  width: 125px;
+}
+.commitment input[type="text"]:focus {
+  outline: none;
+}
+.commitment input[type="time"] {
+  background-color: transparent;
+  color: #000;
+}
+.commitment input[type="time"]:focus {
+  outline: none;
+}
+::-webkit-datetime-edit-hour-field {
+  background-color: transparent;
+}
+::-webkit-datetime-edit-minute-field {
+  border-radius: 15%;
+}
+.commitment img {
+  height: 100px;
+  width: 50px;
+  position: relative;
+  top: 40px;
+}
+.bullet h2 {
+  text-align: center;
+}
+.bullet p {
+  color: gray;
+  letter-spacing: 0.5em;
+  line-height: 1em;
+  font-size: 20px;
+}
+.list h2 {
+  display: inline;
+}
+.list h2::before {
+    content: url('images/face-smile-regular.svg');
+    padding-right: 5px;
+}
+.list p {
+  font-size: 15px;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  text-decoration: 2px dotted gray underline;
+}
+.complete {
+  text-decoration: line-through;
+}
