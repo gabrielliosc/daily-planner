@@ -193,6 +193,7 @@ body {
 .task-item {
   display: flex;
   align-items: center;
+  font-size: 15px;
   text-decoration: 2px dotted gray underline;
 }
 .complete {
