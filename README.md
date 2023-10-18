@@ -4,7 +4,7 @@
 <div align="center">
 <h3 align="center">Daily Planner | Planejamento Diário</h3>
   <p align="center">
-    Front-end project developed to share the work of Naju trough her portifolio
+    Front-end project developed to replicate a layout of a daily planner
   </p>
   <p>
     Projeto Front-end replicando um bloco de papel com layout de 
@@ -35,7 +35,7 @@
 
 ## About The Project | Sobre O Projeto
 
-Welcome! This is a front-end project for an artist Portifolio.
+Welcome! This is a front-end project for a daily planner.
 
 <p>Bem vindo(a)! Esse é um pojeto de front-end replicando o layout de um bloco de papel de planejamento diário.</p>
 
