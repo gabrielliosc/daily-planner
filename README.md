@@ -95,7 +95,7 @@ Thanks! Obrigada! 😄
 ## Contact | Contato
 
 Gabrielli de Oliveira e Silva da Cruz- [Linkedin](https://www.linkedin.com/in/gabrielli-oliveira-cruz/) - gabrielli.osc@gmail.com
-<p>Project Link | Link do Projeto: https://github.com/gabrielliosc/portifolio-app</p>
+<p>Project Link | Link do Projeto: https://github.com/gabrielliosc/daily-planner</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
